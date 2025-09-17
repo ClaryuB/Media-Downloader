@@ -1,5 +1,6 @@
 # Python bytecode
 __pycache__/
+*.pyc
 *.py[cod]
 *.so
 *.egg
@@ -14,6 +15,7 @@ build/
 
 # VS Code settings
 .vscode/
+*.json
 
 # OS-specific files
 .DS_Store

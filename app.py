@@ -6,7 +6,7 @@ st.set_page_config(page_title=APP_TITLE)
 st.title(APP_TITLE)
 st.write(APP_DESCRIPTION)
 
-service = st.selectbox("Select platform", SERVICES)
+#service = st.selectbox("Select platform", SERVICES)
 url = st.text_input("🔗 Enter video URL")
 format_choice = st.radio("Choose format", FORMATS)
 audio_only = format_choice == "Audio (MP3)"

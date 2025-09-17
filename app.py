@@ -23,7 +23,7 @@ if st.button("Download"):
                 file_name=result['filename'],
                 mime=result['mime']
             )
-        except Exception:
-            st.error("❌ A critical error occurred. Please check the URL or try again.")
+        except Exception as e:
+            st.error(f"❌ A critical error occurred: {str(e)}")
     else:
         st.warning("⚠️ Please enter a valid URL.")

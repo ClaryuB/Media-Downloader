@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Streamlit cache
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Render build artifacts (if any)
+render-build/
